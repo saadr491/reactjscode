@@ -1,0 +1,40 @@
+.form-control:focus {
+  outline: 0 !important;
+  border-color: initial;
+  box-shadow: none;
+}
+logo:hover{
+  background-color: green;;
+}
+
+
+
+.batton
+{
+  margin-top: 12px;
+  margin-left: 14px;
+  border: 0;
+border-radius: 20px;
+height:50px;
+width:120px;
+  padding: 4px;
+  display: inline-block;
+  background: linear-gradient(90deg, #1dffec 10%, #5e7fee 70%,#f1ff27 10%);
+}
+.peechay
+{
+
+  width:110px;
+  margin-top: 1px;
+  margin-left: 2px;
+  height:40px;
+  border-radius: 20px;
+  background: white;
+  padding: 8px 14px;
+  font: bold 20px Consolas;
+}
+.batton:active .peechay
+{
+  background: #0a1117;
+  color: #ffffff;
+}
